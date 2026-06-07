@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #E50914;
+  --color-gold-hover: #b81d24;
+  --color-netflix-red: #E50914;
+  --color-netflix-red-dark: #b81d24;
+  --color-netflix-black: #141414;
+  --color-netflix-dark: #000000;
+  --color-netflix-card: #181818;
+  --color-dark-bg: #141414;
+  --color-dark-sidebar: #010101;
+  --color-dark-card: #181818;
+  --color-zinc-850: #2f2f2f;
+  
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-spin-slow: spin 25s linear infinite;
+}
+
+/* Custom extra utilities or scrollbars if useful */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+

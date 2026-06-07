@@ -1,0 +1,6 @@
+{
+  "name": "Deryam",
+  "description": "Yıldönümü sayacı, interaktif mini anı oyunları, kilitli sır odası ve özelleştirilebilir admin paneli içeren şık ve koyu tasarımlı çift uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
